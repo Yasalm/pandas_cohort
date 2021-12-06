@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
     name='pandas_cohort',
     packages=['pandas_cohort'],
-    version='0.1',
+    version='0.0.2',
 
     license='MIT',
     description='simple cohort analysis custom accessor for pandas',
@@ -11,7 +11,7 @@ setup(
     url='https://github.com/Yasalm/pandas_cohorts',
 
     keywords=['pandas cohort analysis', ],
-    install_requires=open('requirements.txt').readlines(),
+    install_requires=['pandas>=1.1.1'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
