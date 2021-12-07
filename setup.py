@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
     name='pandas_cohort',
     packages=['pandas_cohort'],
-    version='0.0.2',
+    version='0.0.3',
 
     license='MIT',
     description='simple cohort analysis custom accessor for pandas',
