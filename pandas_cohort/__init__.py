@@ -1,1 +1,1 @@
-from cohort import CohortAnalysis
+from .cohort import CohortAnalysis
